@@ -5,23 +5,23 @@ class Hn < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.0/hn-0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c1ce78f9c1402d22c0aaade92bb0131026d30539b957936a7f861e95429e76b8"
+      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.1/hn-0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "b97bcd66c2e804a7ea6875c83298f031134054d635910b1ded35e670762b1dc8"
     end
     on_intel do
-      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.0/hn-0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8a45c3d81e97f91a69aef84224d09342b2faaa6cdc226f0790ea538113b71f90"
+      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.1/hn-0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0e71479ae79c67b7425803f35ef4a6c3c7da1ea7247067c278921bb51cf4e292"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.0/hn-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c4e7f20fc3617eed3ab9bf0d2235ad220c6f12c108c5ef4b17a65358c45afbd2"
+      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.1/hn-0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "7dc5f071c61ee132f366626fb076a92b20309d74768b6828f3fd0e7aa6846bbd"
     end
     on_intel do
-      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.0/hn-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d0cd369b0d83cb7e8f105ad1450921a56e0361e6f3e3cbcbb7e0e84d3575f406"
+      url "https://github.com/Shaance/hn/releases/download/tui-v0.2.1/hn-0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "947c404bc65bfd40cbb28718493558ac7bfbd6213f306642d58365c9d8323926"
     end
 
     depends_on "openssl@3"
