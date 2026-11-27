@@ -5,8 +5,8 @@ require "timeout"
 class Herder < Formula
   desc "Dispatch, track and verify coding agent runs"
   homepage "https://github.com/Shaance/herder"
-  url "https://github.com/Shaance/herder/releases/download/v0.4.0/herder-macos-universal.tar.gz"
-  sha256 "61bd320ad6b5ab9a3f27da1c425ac736dfd6cf24494799ed08c38408ee8b1daf"
+  url "https://github.com/Shaance/herder/releases/download/v0.5.0/herder-macos-universal.tar.gz"
+  sha256 "3bc370140981c9a290a2d11312ce87d7955d019e55bc0cbd81b8287bc8f1224b"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
